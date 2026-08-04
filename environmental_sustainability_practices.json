@@ -1,0 +1,95 @@
+{
+  "title": "Environmental & Sustainability Practices - SALCRA",
+  "source_url": "https://www.salcra.gov.my/en/contact/enviromental-sustainability-pratices",
+  "mspo": {
+    "title": "Malaysian Sustainable Palm Oil (MSPO)",
+    "description": "The Malaysian Sustainable Palm Oil (MSPO) is a Malaysian certification scheme standard to address the sustainability aspects of the local palm oil industry, as well as an ethical platform to boost world market access.",
+    "certification_status": "MSPO certified since 2018",
+    "estates_count": "Twenty-one (21) estates",
+    "estates_by_region": {
+      "Bau-Lundu Region": [
+        "Bratak Oil Palm Estate",
+        "Jagoi Oil Palm Estate",
+        "Stenggang Oil Palm Estate",
+        "Undan Oil Palm Estate",
+        "Sebako Oil Palm Estate"
+      ],
+      "Serian Region": [
+        "Kedup 1 Oil Palm Estate",
+        "Kedup 2 Oil Palm Estate",
+        "Estate Melikin Oil Palm Estate",
+        "Mongkos Oil Palm Estate",
+        "Estate Taee Oil Palm Estate"
+      ],
+      "Sri Aman Region": [
+        "Lemanak Oil Palm Estate",
+        "Batu Kaya Oil Palm Estate",
+        "Batang Ai Oil Palm Estate",
+        "Pakit Undop Oil Palm Estate",
+        "Sedarat Memaloi Oil Palm Estate"
+      ],
+      "Saratok Region": [
+        "Saratok Oil Palm Estate",
+        "Roban South Oil Palm Estate",
+        "Roban North Oil Palm Estate",
+        "Saribas Oil Palm Estate"
+      ],
+      "Miri Region": [
+        "Karabungan Mini Oil Palm Estate"
+      ],
+      "Bintulu Region": [
+        "Sg. Sebiew Mini Oil Palm Estate"
+      ]
+    },
+    "map_image": "/images/images/MAP/mappsalcra.png"
+  },
+  "certifications": [
+    {
+      "name": "Certificate for Malaysian Sustainable Palm Oil",
+      "scope": "SALCRA Mills located at Saratok, Sri Aman, Serian and Bau-Lundu is MSPO certified",
+      "certificate_images": [
+        "/images/images/environmentsustainability/1.jpg",
+        "/images/images/environmentsustainability/2.jpg",
+        "/images/images/environmentsustainability/3.jpg",
+        "/images/images/environmentsustainability/4.jpg",
+        "/images/images/environmentsustainability/5.jpg",
+        "/images/images/environmentsustainability/6.jpg",
+        "/images/images/environmentsustainability/7.jpg",
+        "/images/images/environmentsustainability/8.jpg",
+        "/images/images/environmentsustainability/9.jpg",
+        "/images/images/environmentsustainability/10.jpg",
+        "/images/images/environmentsustainability/11.jpg",
+        "/images/images/environmentsustainability/Estate 2.jpg"
+      ]
+    },
+    {
+      "name": "Code of Good Nursery Practices for Oil Palm Nurseries (CoPN)",
+      "scope": "SALCRA Permanent Nursery located at Merbau, Melikin, Jalan Balai Ringin-Serian is CoPN certified",
+      "certificate_images": [
+        "/images/images/environmentsustainability/Melikin.jpg"
+      ]
+    }
+  ],
+  "policies": {
+    "description": "SALCRA operations are guided by five (5) main policies: -",
+    "list": [
+      "Sustainability Policy",
+      "Environmental Policy",
+      "Sexual Harassment Policy",
+      "Social Policy",
+      "Safety And Health Policy"
+    ],
+    "policy_images": [
+      "/images/images/environmentsustainability/a.jpg",
+      "/images/images/environmentsustainability/b.jpg",
+      "/images/images/environmentsustainability/c.jpg",
+      "/images/images/environmentsustainability/d.jpg",
+      "/images/images/environmentsustainability/e.jpg"
+    ]
+  },
+  "sustainability_report": {
+    "title": "Sustainability Report 2021",
+    "link": "https://www.salcra.gov.my/en/salcra/e-report",
+    "image": "/images/images/e_report/01.jpg"
+  }
+}

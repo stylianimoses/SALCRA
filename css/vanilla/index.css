@@ -1,0 +1,140 @@
+:root {
+  /* Navigation Themes */
+  --nav-bg: #ffffff;
+  --nav-border: #f3f4f6;
+  /* gray-100 */
+  --nav-text: #4b5563;
+  /* gray-600 */
+  --nav-hover-bg: #f9fafb;
+  /* gray-50 */
+  --nav-hover-text: #F2A900;
+  /* accent - Warm Amber Gold for hover */
+
+  --drop-bg: rgba(255, 255, 255, 0.98);
+  --drop-border: #f3f4f6;
+  --drop-text: #374151;
+  /* gray-700 */
+  --drop-hover-bg: #f9fafb;
+  /* gray-50 */
+  --drop-hover-text: #F2A900;
+}
+
+#main-nav.is-sticky {
+  --nav-bg: rgba(0, 168, 89, 0.95);
+  /* Leaf Green with slight transparency */
+  backdrop-filter: blur(8px);
+  --nav-border: #008f4c;
+  --nav-text: #ffffff;
+  --nav-hover-bg: rgba(242, 169, 0, 0.1);
+  --nav-hover-text: #F2A900;
+
+  --drop-bg: rgba(0, 168, 89, 0.98);
+  --drop-border: #008f4c;
+  --drop-text: #ffffff;
+  --drop-hover-bg: rgba(242, 169, 0, 0.15);
+  --drop-hover-text: #F2A900;
+}
+
+.nav-drop-item {
+  display: block;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--drop-text);
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+  transition: background-color .15s, color .15s;
+}
+
+.nav-drop-item:hover {
+  background-color: var(--drop-hover-bg);
+  color: var(--drop-hover-text);
+}
+
+/* Dropdown open state */
+.dropdown-open .dropdown-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
+}
+
+.dropdown-open .dropdown-caret {
+  transform: rotate(180deg);
+}
+
+/* Theme toggle thumb transition fix */
+#theme-toggle:checked+span>span {
+  transform: translateX(20px);
+}
+
+/* Scroll animations */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.group:hover .hover-shrink { width: 40% !important; } .group:hover .hover-expand { width: 60% !important; opacity: 1 !important; padding-left: 1rem; padding-right: 1rem; }
+
+/* Floating Side Menu & Modal Transitions */
+.sidemenu-modal {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.sidemenu-modal.hidden {
+  display: none !important;
+}
+
+.modal-box {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+}
+
+/* Active Page Nav Highlighting */
+.nav-active {
+  border-bottom-color: #00A859 !important; /* Leaf Green */
+  color: #00A859 !important;
+}
+
+#main-nav.is-sticky .nav-active {
+  border-bottom-color: #F2A900 !important; /* Warm Amber Gold in sticky state */
+  color: #F2A900 !important;
+}
+
+/* Active Sub Menu Item Highlighting */
+.nav-drop-active {
+  color: #00A859 !important; /* Leaf Green */
+  font-weight: 700 !important;
+}
+
+#main-nav.is-sticky .nav-drop-active {
+  color: #F2A900 !important; /* Warm Amber Gold on sticky green dropdown */
+  font-weight: 700 !important;
+}
+
+/* Global Nav Hover Highlight Overrides */
+#main-nav a:hover,
+#main-nav button.dropdown-toggle:hover {
+  border-bottom-color: #F2A900 !important;
+  color: #F2A900 !important;
+}
+
+/* Submenu Accordion Display and Rotation */
+.submenu-parent.open .submenu-content {
+  display: block;
+}
+.submenu-parent.open .submenu-chevron {
+  transform: rotate(90deg);
+}
+.submenu-toggle {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.submenu-parent.open .submenu-toggle {
+  color: var(--drop-hover-text);
+}
