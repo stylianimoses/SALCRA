@@ -41,7 +41,7 @@ As a **Web Developer Intern**, my primary responsibilities in this project inclu
 
 ## 🔎 Review the Prototype
 
-You can browse the prototype online (not a final edit) at: www.salcra.site OR salcra.site
+You can browse the prototype online (still under development) at: www.salcra.site OR salcra.site
 
 OR work on this project locally:
 ```bash
