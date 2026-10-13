@@ -656,10 +656,6 @@ body {
   visibility: hidden;
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
@@ -998,10 +994,6 @@ body {
 
 .inline-block {
   display: inline-block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -2847,10 +2839,6 @@ body {
   color: rgb(255 255 255 / 0.8);
 }
 
-.underline {
-  text-decoration-line: underline;
-}
-
 .line-through {
   text-decoration-line: line-through;
 }
@@ -2965,10 +2953,6 @@ body {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.outline {
-  outline-style: solid;
 }
 
 .ring-1 {

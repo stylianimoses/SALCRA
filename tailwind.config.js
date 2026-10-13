@@ -6,9 +6,10 @@ module.exports = {
     "./operations/**/*.html",
     "./sustainability/**/*.html",
     "./benefits/**/*.html",
+    "./business/**/*.html",
     "./media-centre/**/*.html",
     "./contact-us.html",
-    "./**/*.html"
+    "./master-template.html"
   ],
   theme: {
     extend: {
