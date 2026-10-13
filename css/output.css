@@ -1020,6 +1020,10 @@ body {
   display: grid;
 }
 
+.contents {
+  display: contents;
+}
+
 .hidden {
   display: none;
 }
@@ -1531,6 +1535,10 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+
+.resize-none {
+  resize: none;
 }
 
 .resize {
@@ -2320,6 +2328,10 @@ body {
   padding: 0.5rem;
 }
 
+.p-2\.5 {
+  padding: 0.625rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -2478,6 +2490,10 @@ body {
   padding-bottom: 5rem;
 }
 
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2524,6 +2540,10 @@ body {
 
 .pr-6 {
   padding-right: 1.5rem;
+}
+
+.pt-1\.5 {
+  padding-top: 0.375rem;
 }
 
 .pt-10 {
@@ -3296,6 +3316,11 @@ body {
   border-color: rgb(0 168 89 / var(--tw-border-opacity, 1));
 }
 
+.focus\:border-primary:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 168 89 / var(--tw-border-opacity, 1));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -3546,6 +3571,10 @@ body {
 
   .sm\:w-\[calc\(50\%-12px\)\] {
     width: calc(50% - 12px);
+  }
+
+  .sm\:w-auto {
+    width: auto;
   }
 
   .sm\:grid-cols-2 {
